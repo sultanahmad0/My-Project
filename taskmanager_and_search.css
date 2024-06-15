@@ -1,0 +1,76 @@
+.dashboard{
+    width: 75%;
+}
+.managernav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0px;
+}
+.managernav form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    font-size: 18px;
+    border: none;
+    width: 80%;
+}
+.search input:focus{
+    outline: none;
+}
+.search{
+    border: 1px solid;
+    width: 40%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7px 0px;
+}
+.search:hover,.search:active{
+    scale: 1.2;
+}
+.search img{
+    width: 16px;
+}
+
+.search button{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.headingtask{
+    text-align: center;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headingtask img{
+    width: 28px;
+    margin-right: 10px;
+}
+
+.tables form{
+        width: 90%;
+        margin: auto;
+}
+.search select{
+    width: 17px;
+    border: none;
+}
+.search select:focus{
+    outline: none;
+}
+.search select option{
+    padding: 12px;
+}

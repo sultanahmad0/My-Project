@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: 'bold';
+    src: url(Cerebri\ Sans\ Bold.ttf);
+    }
+    @font-face{
+        font-family: 'light';
+        src: url(Cerebri-Sans-Regular.ttf);
+        }
+body{
+    font-family: 'bold';
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 22px 0px;
+}
+.logo{
+    display: flex;
+    font-size: 2rem;
+    padding: 0px 35px;
+    /* width: 50%; */
+    margin: auto;
+}
+.logo img{
+    height: 2rem;
+    margin: auto;
+}
+.reference{
+    display: flex;
+    font-size: 1rem;
+    margin: auto;
+}
+
+.reference p{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 8px 0;
+}
+.reference img{
+    width: 20px;
+    border-radius: 100%;
+    padding: 0px 10px;
+}
+.reference a{
+    padding: 9px 0;
+    color: #3649df;
+}
+.main{
+    text-align: center;
+    margin: 4rem 0px;
+}
+.main h1{
+    /* padding: 15px 0px; */
+    font-weight: 700;
+    font-size: 64px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.main p{
+    /* padding: 15px 0px; */
+    margin: 30px 0px;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.main a{
+    cursor: pointer;
+}
+.main button{
+    padding: 8px 8rem;
+    background-color: #3649df;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.picture{
+    display: block;
+    text-align: center;
+}
+.picture img{
+    justify-content: center;
+    width: 80%;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    flex-wrap: wrap;
+}
+.end div{
+    padding: 25px 44px;
+    width:20%;
+}
+.end div h3{
+    padding: 15px 0;
+}
+.end div p{
+    font-family: 'light';
+}
+.footer{
+    text-align: center;
+    margin-top: 3rem;
+}
+@media (max-width: 767px) {
+    .picture{
+        width: 100%;
+    }
+    .picture img{
+        width: 100%;
+    }
+    .end{
+        width: 100%;
+        flex-direction: column;
+    }
+    .end div {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+     }
+     .end h3{
+        text-align: center;
+     }
+   }
